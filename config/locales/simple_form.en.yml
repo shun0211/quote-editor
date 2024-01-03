@@ -1,0 +1,16 @@
+en:
+  simple_form:
+    placeholders:
+      quote:
+        name: Name of your quote
+    error_notification:
+      default_message: "Please review the problems below:"
+    labels:
+      quote:
+        name: Name
+
+  helpers:
+    submit:
+      quote:
+        create: Create quote
+        update: Update quote
