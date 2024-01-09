@@ -13,6 +13,12 @@
 
   <body>
     <%= render "layouts/navbar" %>
+
+    <!-- Turbo Stream のアクションは flash の id を持つ要素をターゲットとしているから id の指定が必要 -->
+    <div id="flash" class="flash">
+      <%= render "layouts/flash" %>
+    </div>
+
     <%= yield %>
   </body>
 </html>
