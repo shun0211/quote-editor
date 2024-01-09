@@ -1,3 +1,4 @@
 <%= turbo_stream.prepend "quotes", @quote %>
+<%# 下記は同じ意味 %>
 <%# <%= turbo_stream.prepend "quotes", partial: "quotes/quote", locals: { quote: @quote } %> %>
 <%= turbo_stream.update Quote.new, "" %>
